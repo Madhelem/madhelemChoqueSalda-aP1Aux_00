@@ -39,3 +39,11 @@ console.log(jugadores1);
 //-----------------------------equipo2
 let jugadores2: String[]= game.players[1];
 console.log(jugadores2);
+
+/*2. El primer jugador en cualquier conjunto de jugadores es el portero y los demás son jugadores de campo. 
+Para el Bayern de Múnich (equipo 1) cree una variable ('gk') con el nombre del portero y una matriz ('fieldPlayers') con los 10 restantes jugadores de campo*/
+
+let gk= jugadores1[0];
+const [n1,...restodenombres]=jugadores1;
+let fieldPlayers: String[]=[...restodenombres];
+console.log(fieldPlayers);

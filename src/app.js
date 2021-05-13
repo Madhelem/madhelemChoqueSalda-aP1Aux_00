@@ -1,3 +1,8 @@
+var __spreadArray = (this && this.__spreadArray) || function (to, from) {
+    for (var i = 0, il = from.length, j = to.length; i < il; i++, j++)
+        to[j] = from[i];
+    return to;
+};
 /*PREGUNTA 1:
 Estamos creando una aplicación de apuestas de fútbol.
 Supongamos que obtenemos datos de un servicio web sobre un determinado juego (vera un ejemplo del objeto “game” al final de este enunciado) trabajara con esos datos.
@@ -37,3 +42,9 @@ console.log(jugadores1);
 //-----------------------------equipo2
 var jugadores2 = game.players[1];
 console.log(jugadores2);
+/*2. El primer jugador en cualquier conjunto de jugadores es el portero y los demás son jugadores de campo.
+Para el Bayern de Múnich (equipo 1) cree una variable ('gk') con el nombre del portero y una matriz ('fieldPlayers') con los 10 restantes jugadores de campo*/
+var gk = jugadores1[0];
+var n1 = jugadores1[0], restodenombres = jugadores1.slice(1);
+var fieldPlayers = __spreadArray([], restodenombres);
+console.log(fieldPlayers);
