@@ -57,3 +57,10 @@ console.log(allPlayers);
 ('players1Final') que contiene todos los jugadores originales del equipo1 más 'Thiago', 'Coutinho' y 'Perisic'*/
 var players1Final = __spreadArray(__spreadArray([], jugadores1), ['Thiago', 'Coutinho', 'Perisic']);
 console.log(players1Final);
+/*5. Basado en el objeto game.odds, cree una variable para cada cuota (llamada 'equipo1', 'empate' y 'equipo2')*/
+var equipo1 = game.odds.team1;
+console.log(equipo1);
+var equipo2 = game.odds.team2;
+console.log(equipo2);
+var empate = game.odds.x;
+console.log(empate);

@@ -60,3 +60,12 @@ console.log(allPlayers);
 
 let players1Final: String  []=[...jugadores1,'Thiago', 'Coutinho' , 'Perisic']
 console.log(players1Final);
+
+/*5. Basado en el objeto game.odds, cree una variable para cada cuota (llamada 'equipo1', 'empate' y 'equipo2')*/
+
+let equipo1=game.odds.team1;
+console.log(equipo1);
+let equipo2=game.odds.team2;
+console.log(equipo2);
+let empate=game.odds.x;
+console.log(empate);
