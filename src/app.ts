@@ -31,4 +31,11 @@ const game = {
       },
       };
       
-      
+/*1. Cree una matriz de jugadores para cada equipo (variables 'jugadores1' y 'jugadores2')*/
+
+//----------------------------equipo1
+let jugadores1: String[]= game.players[0];
+console.log(jugadores1);
+//-----------------------------equipo2
+let jugadores2: String[]= game.players[1];
+console.log(jugadores2);

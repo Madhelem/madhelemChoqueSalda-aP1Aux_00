@@ -30,3 +30,10 @@ var game = {
         team2: 6.5
     }
 };
+/*1. Cree una matriz de jugadores para cada equipo (variables 'jugadores1' y 'jugadores2')*/
+//----------------------------equipo1
+var jugadores1 = game.players[0];
+console.log(jugadores1);
+//-----------------------------equipo2
+var jugadores2 = game.players[1];
+console.log(jugadores2);
