@@ -32,3 +32,12 @@ var facturas = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 /* 5. Cree arrays vacíos para las propinas y los totales ('propinas' y 'totales')*/
 var propinas = [];
 var totales = [];
+/*6. Utilice la función 'calcTip' que escribimos antes para calcular propinas y valores totales (factura +
+propina) para cada valor de factura en la matriz de facturas. */
+for (var i = 0; i < facturas.length; i++) {
+    propinas[i] = calTip(facturas[i]);
+    totales[i] = (calTip(facturas[i])) + facturas[i];
+}
+console.log("array de facturas  :" + facturas); //imprimir  el array de  facturas
+console.log("array de propinas: " + propinas); //imprimir  el array de propinas 
+console.log("array de totales: " + totales); //imprimir  el array de totales 
