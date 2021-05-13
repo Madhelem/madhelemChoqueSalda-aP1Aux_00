@@ -85,3 +85,6 @@ function printGoals() {
         console.log(arr[i] + " " + cont);
     }
 }
+/*7. Es más probable que gane el equipo con la cuota más baja. Imprima en la consola que equipo es más
+probable que gane, sin usar una declaración if/else o el operador ternario.*/
+var ganador = game.odds.team1 < game.odds.team2 ? console.log("el ganador es :" + game.team1 + " con " + game.odds.team1) : console.log("el ganador es :" + game.team2 + " con " + game.odds.team2);
