@@ -69,3 +69,26 @@ let equipo2=game.odds.team2;
 console.log(equipo2);
 let empate=game.odds.x;
 console.log(empate);
+
+
+/*6. Escriba una función ('printGoals') que reciba un número arbitrario de nombres de jugadores (no un array) 
+e imprime cada uno de ellos en la consola, junto con el número de goles que se marcaron en total (número de nombres de jugadores transferidos).*/
+
+let v =(printGoals(allPlayers));
+
+function printGoals(...ns:any) {
+    let goles:any=game.scored;
+    let nh=ns;
+    let arr:String[] = [...ns[0]];  
+    for(let i = 0; i < arr.length; i++) {
+         let cont = 0;
+        for(let j = 0; j < goles.length; j++){
+            if(goles[j] === arr[i]) {
+                cont ++;
+            }
+        }
+        console.log(arr[i] + " " + cont);
+        
+    }
+}
+
