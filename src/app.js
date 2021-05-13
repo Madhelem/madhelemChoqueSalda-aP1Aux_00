@@ -29,3 +29,6 @@ console.log("la propina  utilizando la  funcion de 100 es " + calTip(100)); //pr
 /*4. Cree un array de 'facturas' que contenga los siguientes datos de prueba: 22, 295, 176, 440, 37, 105,
 10, 1100, 86, 52 */
 var facturas = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+/* 5. Cree arrays vacíos para las propinas y los totales ('propinas' y 'totales')*/
+var propinas = [];
+var totales = [];

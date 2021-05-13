@@ -42,3 +42,8 @@ function calTip(factura:number):number {
 
 
 let facturas: number[] = [22,295,176,440,37,105,10,1100,86,52];
+
+/* 5. Cree arrays vacíos para las propinas y los totales ('propinas' y 'totales')*/
+let propinas: number[]=[];
+let totales: number[]=[];
+
