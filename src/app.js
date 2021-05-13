@@ -48,3 +48,8 @@ var gk = jugadores1[0];
 var n1 = jugadores1[0], restodenombres = jugadores1.slice(1);
 var fieldPlayers = __spreadArray([], restodenombres);
 console.log(fieldPlayers);
+/*3. Cree una matriz 'allPlayers' que contenga a todos los jugadores de ambos equipos (22 jugadores)*/
+//ambos  equipos
+//let allPlayers: String[]=[...jugadores1,...jugadores2]; //un metodo para la respuesta
+var allPlayers = jugadores1.concat(jugadores2); //segundo metodo para la respuesta  
+console.log(allPlayers);

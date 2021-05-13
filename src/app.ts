@@ -47,3 +47,10 @@ let gk= jugadores1[0];
 const [n1,...restodenombres]=jugadores1;
 let fieldPlayers: String[]=[...restodenombres];
 console.log(fieldPlayers);
+
+/*3. Cree una matriz 'allPlayers' que contenga a todos los jugadores de ambos equipos (22 jugadores)*/
+//ambos  equipos
+
+//let allPlayers: String[]=[...jugadores1,...jugadores2]; //un metodo para la respuesta
+let allPlayers: String[]=jugadores1.concat(jugadores2);  //segundo metodo para la respuesta  
+console.log(allPlayers);
