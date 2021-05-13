@@ -54,3 +54,9 @@ console.log(fieldPlayers);
 //let allPlayers: String[]=[...jugadores1,...jugadores2]; //un metodo para la respuesta
 let allPlayers: String[]=jugadores1.concat(jugadores2);  //segundo metodo para la respuesta  
 console.log(allPlayers);
+
+/*4. Durante el partido, el Bayern de Múnich (equipo 1) utilizó 3 jugadores suplentes. Así que crea una nueva matriz 
+('players1Final') que contiene todos los jugadores originales del equipo1 más 'Thiago', 'Coutinho' y 'Perisic'*/
+
+let players1Final: String  []=[...jugadores1,'Thiago', 'Coutinho' , 'Perisic']
+console.log(players1Final);
