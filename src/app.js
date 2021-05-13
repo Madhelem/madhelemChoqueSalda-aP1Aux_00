@@ -12,3 +12,17 @@ console.log("la propina  sin utilizar  if else de" + fac + " es " + tip); //impr
 (factura + propina). Ejemplo: "La factura fue 275, la propina fue 41,25 y el valor total 316.25 "*/
 var cadena = "La factura fue " + fac + ", la propina  fue " + tip + " y el valor total " + (fac + tip) + " ";
 console.log(cadena);
+/*3. Escriba una función 'calcTip' que tome cualquier valor de factura como entrada y devuelva la propina
+correspondiente, calculada según las reglas anteriores. Pruebe la función con un valor de factura de
+100*/
+function calTip(factura) {
+    var propina;
+    if (factura >= 50 && factura <= 300) {
+        propina = factura * 0.15;
+    }
+    else {
+        propina = factura * 0.20;
+    }
+    return propina;
+}
+console.log("la propina  utilizando la  funcion de 100 es " + calTip(100)); //provando la funcion 
