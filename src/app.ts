@@ -36,3 +36,9 @@ function calTip(factura:number):number {
       return propina;
     }
     console.log("la propina  utilizando la  funcion de 100 es "+calTip(100)) //provando la funcion 
+
+/*4. Cree un array de 'facturas' que contenga los siguientes datos de prueba: 22, 295, 176, 440, 37, 105,
+10, 1100, 86, 52 */
+
+
+let facturas: number[] = [22,295,176,440,37,105,10,1100,86,52];
