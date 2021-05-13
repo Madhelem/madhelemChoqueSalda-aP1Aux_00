@@ -8,3 +8,7 @@ está permitido usar una declaración if / else*/
 var fac = 111;
 var tip = fac <= 300 ? (fac * 0.15) : fac >= 50 ? (fac * 0.15) : (fac * 0.20);
 console.log("la propina  sin utilizar  if else de" + fac + " es " + tip); //imprimir  la propina de  un valor  de factura
+/*2. Imprima una cadena en la consola que contenga el valor de la factura, la propina y el valor final.
+(factura + propina). Ejemplo: "La factura fue 275, la propina fue 41,25 y el valor total 316.25 "*/
+var cadena = "La factura fue " + fac + ", la propina  fue " + tip + " y el valor total " + (fac + tip) + " ";
+console.log(cadena);
